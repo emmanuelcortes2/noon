@@ -1,6 +1,10 @@
 import "./features.css";
-import StarIcon from "../starIcon/star-icon";
+import StarIcon from "../icons/star-icon";
 import InputIcon from "../inputIcon/input-icon";
+import OutlineStar from "../icons/star-icon-outline";
+import MaterialIcon from "../icons/material-icon";
+import AiIcon from "../icons/ai-icon";
+import CreativityIcon from "../icons/creativity-icon";
 
 export default function Features() {
   return (
@@ -14,20 +18,32 @@ export default function Features() {
         <hr />
         <div className="features-grid">
           <span className="grid-item">
-            <h3>Style</h3>
+            <small>
+              <OutlineStar />
+              <h3>Style</h3>
+            </small>
             <p>Choose your style</p>
           </span>
           <span className="grid-item">
-            <h3>Style</h3>
-            <p>Choose your style</p>
+            <small>
+              <MaterialIcon />
+              <h3>Material</h3>
+            </small>
+            <p>Choose material</p>
           </span>
           <span className="grid-item">
-            <h3>Style</h3>
-            <p>Choose your style</p>
+            <small>
+              <CreativityIcon />
+              <h3>Creativity</h3>
+            </small>
+            <p>High-level</p>
           </span>
           <span className="grid-item">
-            <h3>Style</h3>
-            <p>Choose your style</p>
+            <small>
+              <AiIcon />
+              <h3>AI model</h3>
+            </small>
+            <p>Midjourney 5.0</p>
           </span>
         </div>
       </div>

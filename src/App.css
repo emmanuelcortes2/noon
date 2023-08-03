@@ -24,6 +24,14 @@
 }
 
 .background-image {
+  background: linear-gradient(
+    to right bottom,
+    #ffffff,
+    #f7f6fb,
+    #eeedf8,
+    #e5e4f4,
+    #dcdbf1
+  );
   background-image: url("../public/fondo2_1.png");
   background-size: contain;
   background-repeat: no-repeat;
