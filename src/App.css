@@ -24,8 +24,11 @@
 }
 
 .background-image {
-  background-image: url("../public/fondo_robot.svg");
-  background-size: cover;
+  background-image: url("../public/fondo2_1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: right;
   height: 93vh;
   width: 95vw;
   background-color: white;
